@@ -10,6 +10,7 @@ a {
 ul {
   list-style-type: none;
 }
+
 .header {
 }
 .header-navigation {
@@ -51,6 +52,7 @@ ul {
   color: #404bbf;
 }
 .header-address {
+  font-style: normal;
 }
 .header-address-list {
 }
@@ -78,6 +80,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .main-button {
   font-family: inherit;
@@ -86,7 +89,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #404bbf;
+  background: #4d5ae5;
   cursor: pointer;
 }
 .main-button:hover,
@@ -95,16 +98,7 @@ ul {
 }
 .features {
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
+
 .features-list {
 }
 .features-list-item {
@@ -133,6 +127,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
@@ -169,6 +164,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-list {
 }
@@ -205,7 +201,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
